@@ -26,6 +26,10 @@ function App() {
         <Link to="/adduser" className="text-white text-lg font-bold hover:text-white hover:bg-green-500 px-4 py-2 rounded">Add User</Link>
         <Link to="/Signup" className="text-white text-lg font-bold hover:text-white hover:bg-green-500 px-4 py-2 rounded">Sign up</Link>
         <Link to="/Login" className="text-white text-lg font-bold hover:text-white hover:bg-green-500 px-4 py-2 rounded">Login</Link>
+        <Link to="/calculator" className="text-white text-lg font-bold hover:text-white hover:bg-green-500 px-4 py-2 rounded">Calculator</Link>
+        <Link to="/quiz" className="text-white text-lg font-bold hover:text-white hover:bg-green-500 px-4 py-2 rounded">Quiz</Link>
+        <Link to="/weather" className="text-white text-lg font-bold hover:text-white hover:bg-green-500 px-4 py-2 rounded">Weather</Link>
+        <Link to="/todo" className="text-white text-lg font-bold hover:text-white hover:bg-green-500 px-4 py-2 rounded">Todo</Link>
       </nav>
 
       <Routes>
@@ -36,13 +40,13 @@ function App() {
         <Route path="/adduser" element={<AddUser/>}/>
         <Route path="/Signup" element={<Signup/>}/>
         <Route path="/Login" element={<Login/>}/>
+        <Route path="/calculator" element={<Calculator />} />
+        <Route path="/quiz" element={<Quiz />} />
+        <Route path="/weather" element={<Weather />} />
+        <Route path="/todo" element={<Todolist />} />
       </Routes>
     </BrowserRouter>
-      {/* <Header></Header>
-      <Todolist></Todolist>
-      <Calculator></Calculator>
-      <Quiz></Quiz>
-      <Weather></Weather> */}
+      
     </div>
   )
 }

@@ -9,7 +9,7 @@ import About from './about'
 import Contact from './contact'
 import Users from './Users'
 import {BrowserRouter, Routes, Route, Link} from 'react-router-dom'
-import AddUser from './addUser'
+import AddUser from './AddUser'
 import Signup from './Signup'
 import Login from './Login'
 

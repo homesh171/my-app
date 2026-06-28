@@ -1,4 +1,4 @@
-import { useUser } from './context'
+import { useUser } from './Context'
 
 function Home() {
   const { user, setUser } = useUser()

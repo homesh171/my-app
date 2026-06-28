@@ -1,0 +1,151 @@
+
+
+.header{
+  padding-bottom: 20px;
+}
+
+
+.container {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  width: 400px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+input {
+  width: 70%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 5px;
+  font-size: 16px;
+}
+
+ul {
+  margin-top: 20px;
+  list-style: none;
+}
+
+li {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li button {
+  background-color: transparent;
+  font-size: 18px;
+  margin-left: 0;
+  padding: 0;
+}
+.calculator {
+  margin-top: 30px;
+  border-top: 2px solid #ddd;
+  padding-top: 20px;
+}
+
+.display {
+  background-color: #333;
+  color: white;
+  text-align: right;
+  padding: 15px;
+  font-size: 24px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.buttons button {
+  padding: 15px;
+  font-size: 18px;
+  background-color: #e0e0e0;
+  color: #333;
+  border-radius: 5px;
+  margin-left: 0;
+}
+
+.quiz{
+  margin-top: 40px;
+}
+
+.quest{
+  text-align: center;
+}
+
+.quest h2,div{
+  padding-bottom: 10px;
+}
+
+.weather {
+  margin-top: 30px;
+  border-top: 2px solid #ddd;
+  padding-top: 20px;
+}
+
+.weather-info {
+  margin-top: 15px;
+  background-color: #f0f8ff;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.weather h2 {
+  margin-bottom: 10px;
+}
+
+.weather-info h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.weather-info p {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+nav {
+  background-color: #333;
+  padding: 15px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background-color: #4CAF50;
+}
+  
